@@ -1,0 +1,83 @@
+@media all {
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.2rem;
+        color: #444444;
+        letter-spacing: 0px;
+    }
+
+    .navbar {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    a {
+        color: #007bb0;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .bg-dark a {
+        color: #89cce8;
+    }
+    .bg-dark a:hover {
+        text-decoration: underline;
+    }
+
+    .bg-light-gray {
+        background-color: #f6f6f6 !important;
+    }
+
+    div.content {
+        padding: 2em;
+        min-height: 400px;
+        margin-bottom: 60px;
+    }
+
+    div.footer {
+        min-height: 100px;
+        text-align: right;
+        font-size: 0.7em;
+    }
+
+    div.footer p {
+        padding: 0.2em 2em;
+    }
+
+    .opacity-8 {
+        opacity: 0.8;
+    }
+    .opacity-9 {
+        opacity: 0.9;
+    }
+    .opacity-0 {
+        opacity: 0;
+    }
+
+    .row-index-servicios .card {
+        min-height: 20em;
+        text-shadow: 0px 1px 0px black;
+    }
+
+    .row-index-servicios .card.bg-warning {
+        text-shadow: 0px 1px 0px #444;
+    }
+
+    #profile-picture {
+        width: 128px;
+        height: 128px;
+        background: url('/img/profile-128.jpg') center top no-repeat;
+        border-width: 3px!important;
+    }
+
+    .github-widget {
+        font-size: 0.9rem;
+        max-width: 600px !important;
+    }
+    .github-widget .gh-widget-item {
+        padding-left: 1rem;
+        text-align: left;
+    }
+}
