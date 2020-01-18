@@ -13,3 +13,7 @@
 
 # thtml generated
 build
+
+# Deploy scripts
+deploy.exclude
+deploy.sh
